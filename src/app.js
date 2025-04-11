@@ -14,7 +14,9 @@ function genEx(quien, accion, objeto, cuando) {
 function cargar() {
     var excusahtml = document.getElementById("excusahtml");
     excusahtml.innerHTML = genEx(quien, accion, objeto, cuando);
+    
 }
+
 cargar();
 console.log(cargar);
 
